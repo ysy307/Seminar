@@ -1,0 +1,76 @@
+ijk
+ elapsed time =   30.8125000000000       sec
+ elapsed time =   29.8593750000000       sec
+ elapsed time =   31.9687500000000       sec
+ elapsed time =   31.4843750000000       sec
+ elapsed time =   30.9062500000000       sec
+
+ikj
+ elapsed time =   43.9062500000000       sec
+ elapsed time =   53.6718750000000       sec
+ elapsed time =   53.1718750000000       sec
+ elapsed time =   50.6875000000000       sec
+ elapsed time =   39.2500000000000       secx
+
+jik
+ elapsed time =   39.7656250000000       sec
+ elapsed time =   42.7812500000000       sec
+ elapsed time =   33.2187500000000       sec
+ elapsed time =   43.7031250000000       sec
+ elapsed time =   30.0156250000000       sec
+
+jki
+ elapsed time =   49.3906250000000       sec
+ elapsed time =   44.4531250000000       sec
+ elapsed time =   28.0937500000000       sec
+ elapsed time =   29.6093750000000       sec
+ elapsed time =   34.6562500000000       sec
+
+kij
+ elapsed time =   64.1250000000000       sec
+ elapsed time =   67.1875000000000       sec
+ elapsed time =   61.0312500000000       sec
+ elapsed time =   61.7656250000000       sec
+ elapsed time =   61.9062500000000       sec
+
+kji
+ elapsed time =   8.12500000000000       sec
+ elapsed time =   8.04687500000000       sec
+ elapsed time =   8.21875000000000       sec
+ elapsed time =   8.04687500000000       sec
+ elapsed time =   8.15625000000000       sec
+
+kji_tmp
+ elapsed time =   6.60937500000000       sec
+ elapsed time =   6.32812500000000       sec
+ elapsed time =   6.53125000000000       sec
+ elapsed time =   6.37500000000000       sec
+ elapsed time =   6.43750000000000       sec
+
+kji_tmp_optimized
+ elapsed time =  0.437500000000000       sec
+ elapsed time =  0.515625000000000       sec
+ elapsed time =  0.484375000000000       sec
+ elapsed time =  0.500000000000000       sec
+ elapsed time =  0.484375000000000       sec
+
+matmul 
+ elapsed time =   3.32812500000000       sec
+ elapsed time =   3.29687500000000       sec
+ elapsed time =   3.32812500000000       sec
+ elapsed time =   3.32812500000000       sec
+ elapsed time =   3.34375000000000       sec
+
+optimized matmul
+ elapsed time =  0.125000000000000       sec
+ elapsed time =  0.109375000000000       sec
+ elapsed time =  0.140625000000000       sec
+ elapsed time =  0.109375000000000       sec
+ elapsed time =  0.125000000000000       sec
+
+optimized vectorized matmul
+ elapsed time =  9.375000000000000E-002  sec
+ elapsed time =  7.812500000000000E-002  sec
+ elapsed time =  9.375000000000000E-002  sec
+ elapsed time =  4.687500000000000E-002  sec
+ elapsed time =  6.250000000000000E-002  sec
