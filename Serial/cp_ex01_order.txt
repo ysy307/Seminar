@@ -10,7 +10,7 @@ ikj
  elapsed time =   53.6718750000000       sec
  elapsed time =   53.1718750000000       sec
  elapsed time =   50.6875000000000       sec
- elapsed time =   39.2500000000000       secx
+ elapsed time =   39.2500000000000       sec
 
 jik
  elapsed time =   39.7656250000000       sec
