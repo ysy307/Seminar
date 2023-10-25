@@ -5,8 +5,7 @@ program matrix_multiplication
   real(8) :: b(IMAX, IMAX)
   real(8) :: c(IMAX, IMAX)
   real(8) :: start, end, elaps
-
-  print*, "start set initial values"
+  
   do j = 1, IMAX
     do i = 1, IMAX
       a(i, j) = sin(2.0d0 * dble(i) * dble(acos(-1.0d0)) / dble(IMAX)) * &
@@ -16,7 +15,6 @@ program matrix_multiplication
       c(i, j) = 0.0d0
     end do
   end do
-  print*, "end set initial values"
 
   call cpu_time(start)
 

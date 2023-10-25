@@ -10,7 +10,7 @@ ikj
  elapsed time =   53.6718750000000       sec
  elapsed time =   53.1718750000000       sec
  elapsed time =   50.6875000000000       sec
- elapsed time =   39.2500000000000       secx
+ elapsed time =   39.2500000000000       sec
 
 jik
  elapsed time =   39.7656250000000       sec
@@ -68,7 +68,7 @@ optimized matmul
  elapsed time =  0.109375000000000       sec
  elapsed time =  0.125000000000000       sec
 
-optimized vectorized matmul
+optimized and vectorized matmul
  elapsed time =  9.375000000000000E-002  sec
  elapsed time =  7.812500000000000E-002  sec
  elapsed time =  9.375000000000000E-002  sec
