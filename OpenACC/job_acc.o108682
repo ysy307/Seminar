@@ -1,0 +1,69 @@
+libcupti.so not found
+
+Accelerator Kernel Timing data
+/home/guest04/ACC/20230922/laplace_acc.c
+  main  NVIDIA  devicenum=0
+    time(us): 483
+    24: compute region reached 1 time
+        24: kernel launched 1 time
+            grid: [2]  block: [128]
+            elapsed time(us): total=43 max=43 min=43 avg=43
+    24: data region reached 2 times
+        24: data copyin transfers: 1
+             device time(us): total=72 max=72 min=72 avg=72
+        27: data copyout transfers: 1
+             device time(us): total=51 max=51 min=51 avg=51
+    31: compute region reached 1 time
+        31: kernel launched 1 time
+            grid: [3]  block: [128]
+            elapsed time(us): total=18 max=18 min=18 avg=18
+    31: data region reached 2 times
+        31: data copyin transfers: 1
+             device time(us): total=52 max=52 min=52 avg=52
+        34: data copyout transfers: 1
+             device time(us): total=47 max=47 min=47 avg=47
+    38: compute region reached 1 time
+        39: kernel launched 1 time
+            grid: [509]  block: [128]
+            elapsed time(us): total=19 max=19 min=19 avg=19
+    38: data region reached 2 times
+        40: data copyout transfers: 1
+             device time(us): total=57 max=57 min=57 avg=57
+    43: data region reached 2 times
+        43: data copyin transfers: 1
+             device time(us): total=50 max=50 min=50 avg=50
+        70: data copyout transfers: 1
+             device time(us): total=47 max=47 min=47 avg=47
+    48: compute region reached 1000 times
+        49: kernel launched 1000 times
+            grid: [517]  block: [128]
+            elapsed time(us): total=13,654 max=24 min=13 avg=13
+    48: data region reached 2000 times
+    53: compute region reached 1000 times
+        54: kernel launched 1000 times
+            grid: [509]  block: [128]
+            elapsed time(us): total=13,944 max=17 min=13 avg=13
+    53: data region reached 2000 times
+    62: compute region reached 10 times
+        63: kernel launched 10 times
+            grid: [509]  block: [128]
+            elapsed time(us): total=142 max=15 min=13 avg=14
+        63: reduction kernel launched 10 times
+            grid: [1]  block: [256]
+            elapsed time(us): total=135 max=15 min=13 avg=13
+    62: data region reached 40 times
+        62: data copyin transfers: 10
+             device time(us): total=45 max=10 min=3 avg=4
+        64: data copyout transfers: 10
+             device time(us): total=62 max=8 min=5 avg=6
+step=    0, err=9.73e-03
+step=  100, err=9.16e-03
+step=  200, err=8.90e-03
+step=  300, err=8.71e-03
+step=  400, err=8.55e-03
+step=  500, err=8.40e-03
+step=  600, err=8.27e-03
+step=  700, err=8.15e-03
+step=  800, err=8.04e-03
+step=  900, err=7.94e-03
+time = 0.235624 [s]

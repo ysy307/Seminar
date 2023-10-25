@@ -1,0 +1,26 @@
+"laplace_acc.c", line 22: error: invalid text in pragma
+  #pragma acc kernel 
+                     ^
+
+"laplace_acc.c", line 29: error: invalid text in pragma
+  #pragma acc kernel
+                    ^
+
+"laplace_acc.c", line 37: error: invalid text in pragma
+  #pragma acc kernel
+                    ^
+
+"laplace_acc.c", line 45: error: invalid text in pragma
+  #pragma acc kernel
+                    ^
+
+"laplace_acc.c", line 50: error: invalid text in pragma
+  #pragma acc kernel
+                    ^
+
+"laplace_acc.c", line 59: error: invalid text in pragma
+  #pragma acc kernel
+                    ^
+
+6 errors detected in the compilation of "laplace_acc.c".
+/var/spool/PBS/mom_priv/jobs/108523.rokko1.SC: line 19: ./acc.out: No such file or directory

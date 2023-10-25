@@ -1,0 +1,20 @@
+libcupti.so not found
+
+Accelerator Kernel Timing data
+/home/guest04/ACC/20230922/gi_acc.c
+  main  NVIDIA  devicenum=0
+    time(us): 55
+    17: compute region reached 1 time
+        19: kernel launched 1 time
+            grid: [65535]  block: [128]
+            elapsed time(us): total=12,320 max=12,320 min=12,320 avg=12,320
+        19: reduction kernel launched 1 time
+            grid: [1]  block: [256]
+            elapsed time(us): total=68 max=68 min=68 avg=68
+    17: data region reached 2 times
+        17: data copyin transfers: 1
+             device time(us): total=10 max=10 min=10 avg=10
+        24: data copyout transfers: 1
+             device time(us): total=45 max=45 min=45 avg=45
+sum=3.142478943015246 error=8.862894e-04
+time=0.182147
